@@ -7,7 +7,7 @@ export default function About() {
  })
  const [buttonText, setbuttonText] = useState("Enable Dark mode")
  const darkOnclick =()=>{
-   if(myStyle.color == "black"){
+   if(myStyle.color === "black"){
     setmyStyle({
     color: "white",
     backgroundColor: "black",

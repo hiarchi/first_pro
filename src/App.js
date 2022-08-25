@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import './App.css';
-import About from './Components/About';
+// import About from './Components/About';
 import Navbar from './Components/Navbar';
 import TextArea from './Components/TextArea';
-import { BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
+// import { BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 
 function App() {
   const [mode, setmode] = useState('light');
